@@ -1,0 +1,51 @@
+.container1{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction:column;
+}
+.container{
+     margin: 100px;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction:column;
+}
+
+.container label{
+     text-align: left;
+     color:  rgb(216, 199, 199);
+     margin-bottom: 10px;
+     border: none;
+}
+.container input{
+     border-radius: 10px;
+     margin: 5px;
+     height:30px;
+     width: 300px;
+     padding: 15px;
+     background-image: linear-gradient(#a4c1dd, #c8b2b2);
+
+
+}
+.container textarea{
+     border-radius: 10px;
+     margin: 5px;
+     width: 300px;
+     padding:15px;
+     background-image: linear-gradient(#a4c1dd, #c8b2b2);
+
+}
+.btn{
+      margin-top: 20px;
+  background: #c8733b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100px;
+  height: 50px;
+}
